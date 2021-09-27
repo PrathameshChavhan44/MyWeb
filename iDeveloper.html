@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>iDeveloper</title>
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">iDeveloper</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="iDeveloper.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iDeveloper-about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Topic
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" target="_blank"
+                  href="https://www.masaischool.com/courses?utm_source=Google_Search&utm_medium=Generic&utm_campaign=Software-courses&gclid=CjwKCAjwgviIBhBkEiwA10D2j3qMqEDcZD2DDF37GUNsyntLWQIH1PpcAiSy8LXiA3wtKf8O-1URPRoC2wMQAvD_BwE">Web
+                  Developer </a></li>
+              <li><a class="dropdown-item" target="_blank" href="https://www.tutorialspoint.com/software_engineering/index.htm">Software Developer</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iDeveloper-Contact.html">Contact us
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Alert -->
+  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <strong>Hey Developer!</strong> Kindly login with your E-mail.<span class="badge bg-secondary">New</span>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <!--Carousel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/lp1.jpg" class="d-block w-100 my-4" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Welcome to iDeveloper</h2>
+          <p>Technology News, Developement and Trends</p>
+          <button class="btn btn-danger">Technology</button>
+          <button class="btn btn-success">Web Developement</button>
+          <button class="btn btn-primary">Tech Fun</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/lp2.jfif" class="d-block w-100 my-4" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Best Coding Blog</h2>
+          <p>Technology News, Developement and Trends</p>
+          <button class="btn btn-danger">Technology</button>
+          <button class="btn btn-success">Web Developement</button>
+          <button class="btn btn-primary">Tech Fun</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/lp3.jfif" class="d-block w-100 my-4" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Award Wining Blog</h2>
+          <p>Technology News, Developement and Trends</p>
+          <button class="btn btn-danger">Technology</button>
+          <button class="btn btn-success">Web Developement</button>
+          <button class="btn btn-primary">Tech Fun</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- cards  -->
+  <div class="container">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Full Web Development</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+            <a href="https://www.credit-suisse.com/pwp/hr/en/codingchallenge/#/" target="_blank"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://source.unsplash.com/500x700/?water" class="bd-placeholder-img" width="200" height="250"
+              alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Learn HTML5</HTML:5>
+            </h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a href="https://www.tutorialspoint.com/html5/index.htm" target="_blank" class="stretched-link">Continue
+              reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://source.unsplash.com/500x700/?nature" class="bd-placeholder-img" width="200" height="250"
+              alt="...">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Learn CSS</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+            <a href="https://www.tutorialspoint.com/css/index.htm" target="_blank"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://source.unsplash.com/500x700/?code" class="bd-placeholder-img" width="200" height="250"
+              alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Learn JavaScript</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a href="https://www.tutorialspoint.com/javascript/index.htm" target="_blank" class="stretched-link">Continue
+              reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://source.unsplash.com/500x700/?laptop" class="bd-placeholder-img" width="200" height="250"
+              alt="...">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
